@@ -42,6 +42,4 @@ generate_messages(
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-catkin_package(
- CATKIN_DEPENDS std_msgs geometry_msgs message_runtime
-)
+catkin_package()

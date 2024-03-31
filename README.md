@@ -6,3 +6,8 @@ geometry_msgs/Point target
 ---
 bool success
 ```
+### TwoWheelRobotState.msg
+```
+float64 leftWheelVelocity
+float64 rightWheelVelocity
+```
